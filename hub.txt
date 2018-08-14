@@ -1,0 +1,6 @@
+hub REDP_SLC26A4_Hub
+shortLabel SLC26A4 Hub
+longLabel UCSC Informatics Hub for SLC26A4 Data
+genomesFile genomes.txt
+email elizabeth-black@uiowa.edu
+decriptionURL slc26A4Hub.html
