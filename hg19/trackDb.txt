@@ -1,7 +1,7 @@
-track HRC chr7 all sites
+track HRC-CHR7-ALL-SITES
 bigDataUrl chr7.HPC_March2016.HRC.r1-1.GRCh37.wgs.mac5.sites.vcf.gz
-shortLabel HRC chr7 all sites
-longLabel HRC chr7 all sites
+shortLabel HRC 2016 chr7 all sites
+longLabel HRC 2016 chr7 all sites
 type vcfTabix
 
 track MORL-REDP-OTO-EAS
