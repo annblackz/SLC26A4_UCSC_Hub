@@ -16,17 +16,17 @@ shortLabel MORL SLC26A4 EAS
 longLabel SLC26A4 EAS
 type vcfTabix
 
-track SCL26A4-1kg1-Haploview-4GAMBlocks
+track EAS-SCL26A4-1kg1-Haploview-4GAMBlocks
 bigDataUrl SLC26A4.1kg.phase3.v5a.EAS.SPLIT-LFT_ALGN.NO-INDELS.REMOVE-DUPS.haps.4GAMBlocks.bb
 shortLabel SLC26A4 1kg EAS 4GAM Haploblocks
-longLabel 1kg SLC26A4 Haploblock ranges from Haploview using Four Gamete Rule
+longLabel 1kg EAS SLC26A4 Haploblock ranges from Haploview using Four Gamete Rule
 type bigBed
 visibility dense
 
-track SCL26A4-1kg1-Haploview-GABBlocks
+track EAS-SCL26A4-1kg1-Haploview-GABBlocks
 bigDataUrl SLC26A4.1kg.phase3.v5a.EAS.SPLIT-LFT_ALGN.NO-INDELS.REMOVE-DUPS.haps.GABBlocks.bb
 shortLabel SLC26A4 1kg EAS GAB Haploblocks
-longLabel 1kg SLC26A4 Haploblock ranges from Haploview using Confidence Intervals (Gabriel et al)
+longLabel 1kg EAS SLC26A4 Haploblock ranges from Haploview using Confidence Intervals (Gabriel et al)
 type bigBed
 visibility dense
 
@@ -41,5 +41,12 @@ track MORL-EAS-Haploview-4GAMBlocks
 bigDataUrl MORL-EAS.SLC26A4.run-1.804.shapeit2_r790.haploview.haps.4GAMblocks.block-range.bb
 shortLabel SLC26A4 MORL EAS 4GAM Haploblocks
 longLabel MORL SLC26A4 Haploblock ranges from Haploview using Four Gamete Rule
+type bigBed
+visibility dense
+
+track EUR-SCL26A4-1kg1-Haploview-4GAMBlocks
+bigDataUrl SLC26A4.1kg.phase3.v5a.EUR.SPLIT-LFT_ALGN.NO-INDELS.REMOVE-DUPS.haps.4GAMBlocks.bb
+shortLabel SLC26A4 1kg EUR 4GAM Haploblocks
+longLabel EUR 1kg SLC26A4 Haploblock ranges from Haploview using Four Gamete Rule
 type bigBed
 visibility dense
